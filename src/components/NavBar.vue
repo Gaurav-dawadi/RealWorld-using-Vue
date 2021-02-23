@@ -1,11 +1,14 @@
 <template>
   <nav class="navbar navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="index.html">conduit</a>
+      <router-link to="/" class="navbar-brand">
+        conduit
+      </router-link>
       <ul class="nav navbar-nav pull-xs-right">
         <li class="nav-item">
-          <!-- Add "active" class when you're on that page" -->
-          <a class="nav-link active" href="">Home</a>
+          <router-link to="/" class="nav-link">
+            Home
+          </router-link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="">
@@ -18,14 +21,14 @@
           </a>
         </li>
         <li class="nav-item">
-          <router-lin to="/login" class="nav-link">
+          <router-link to="/login" class="nav-link">
             Sign in
-          </router-lin>
+          </router-link>
         </li>
         <li class="nav-item">
-          <router-lin to="/register" class="nav-link">
+          <router-link to="/register" class="nav-link">
             Sign up
-          </router-lin>
+          </router-link>
         </li>
       </ul>
     </div>
