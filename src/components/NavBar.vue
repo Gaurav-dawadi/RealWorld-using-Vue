@@ -18,7 +18,14 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Sign up</a>
+          <router-lin to="/login" class="nav-link">
+            Sign in
+          </router-lin>
+        </li>
+        <li class="nav-item">
+          <router-lin to="/register" class="nav-link">
+            Sign up
+          </router-lin>
         </li>
       </ul>
     </div>
