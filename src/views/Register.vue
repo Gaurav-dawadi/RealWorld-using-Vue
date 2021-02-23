@@ -5,12 +5,14 @@
         <div class="col-md-6 offset-md-3 col-xs-12">
           <h1 class="text-xs-center">Sign up</h1>
           <p class="text-xs-center">
-            <a href="">Have an account?</a>
+            <router-link to="/login">
+              Have an account?
+            </router-link>
           </p>
 
-          <ul class="error-messages">
+          <!-- <ul class="error-messages">
             <li>That email is already taken</li>
-          </ul>
+          </ul> -->
 
           <form>
             <fieldset class="form-group">
