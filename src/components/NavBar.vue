@@ -16,9 +16,9 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">
+          <router-link class="nav-link" to="/settings">
             <i class="ion-gear-a"></i>&nbsp;Settings
-          </a>
+          </router-link>
         </li>
         <li class="nav-item">
           <router-link to="/login" class="nav-link">

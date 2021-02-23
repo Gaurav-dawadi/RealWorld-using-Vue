@@ -19,6 +19,36 @@ const routes = [
     path: "/register",
     name: "Register",
     component: () => import("../views/Register.vue")
+  },
+  {
+    path: "/settings",
+    name: "Settings",
+    component: () => import("../views/Settings.vue")
+  },
+  {
+    path: "/editor",
+    name: "ArticleCreate",
+    component: () => import("../views/ArticleCreate.vue")
+  },
+  {
+    path: "/editor/:article-slug-here",
+    name: "ArticleEdit",
+    component: () => import("../views/ArticleEdit.vue")
+  },
+  {
+    path: "/article/:article-slug-here",
+    name: "Article",
+    component: () => import("../views/Article.vue")
+  },
+  {
+    path: "/profile/:username",
+    name: "Profile",
+    component: () => import("../views/Profile.vue")
+  },
+  {
+    path: "/profile/:username/favorites",
+    name: "Favourites",
+    component: () => import("../views/Favourites.vue")
   }
 ];
 
