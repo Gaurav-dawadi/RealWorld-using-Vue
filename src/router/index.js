@@ -41,12 +41,12 @@ const routes = [
     component: () => import("../views/Article.vue")
   },
   {
-    path: "/profile/:username",
+    path: "/:username",
     name: "Profile",
     component: () => import("../views/Profile.vue")
   },
   {
-    path: "/profile/:username/favorites",
+    path: "/:username/favorites",
     name: "Favourites",
     component: () => import("../views/Favourites.vue")
   }
