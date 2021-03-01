@@ -1,34 +1,11 @@
 # realworld2
 
-## Project setup
+## Main Branch
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Project in Vue 2
 ```
 
-### Compiles and minifies for production
+## Master Branch
 ```
-npm run build
+Project in Vue 2 and TypeScript
 ```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
